@@ -1,10 +1,242 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Page</title>
+<style>
+#intro {
+    background: url("http://i.imgur.com/g7nrPPX.jpg") top fixed #232323 repeat;
+    height: 500px;
+    width: 100%;
+    z-index: 99;
+}
+#whtspc-orig {
+    background: #f7f7f7;
+    padding: 2% 0;
+    width: 100%;
+    z-index: 1;
+}
+table, .sf {
+    display: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 9pt;
+    font-weight: normal;
+    line-height: 240% !important;
+    color: #9ba2a6;
+    background: #f7f7f7;
+    text-align: justify;
+}
+#nav {
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+#nav li a {
+    color: #232323;
+    padding-bottom: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+#nav a:hover {
+    color: #748a92;
+}
+#nav ul {
+    padding: 0;
+}
+#nav li {
+    margin: 0 22px;
+    display: inline-block;
+    padding: 0.5% 0;
+    list-style: none;
+}
+#nav li span {
+    background: #323a3f;
+    display: none;
+}
+#nav li:hover span {
+    display: block;
+    width: 170px;
+}
+#nav li span a {
+    display: block;
+    padding: 10px 20px;
+    color: #e7e7e7;
+    text-align: left;
+    text-transform: none;
+}
+.lead {
+    height: 240px;
+    padding-top: 50px;
+    z-index: 999;
+    margin-top: -290px;
+    color: #232323;
+    text-align: center;
+}
+h1 {
+    font-size: 60pt;
+    margin: 20px 0;
+    line-height: 40pt;
+}
+h2 {
+    font-size: 24pt;
+    text-align: center;
+    margin: 30px 0;
+    color: #232323;
+}
+p {
+    margin: 20px 0;
+}
+a:link, a:active, a:visited {
+    color: #748a92;
+    text-decoration: none;
+}
+a:hover {
+    color: #5a666a;
+}
+.leavethisheretoclear {
+    clear: both;
+}
+.container {
+    width: 80%;
+    padding: 0 10%;
+    margin: 0 auto;
+}
+.colorblock {
+    padding: 10% 0;
+    clear: both;
+}
+.colorblock-dark {
+    padding: 10% 0;
+    clear: both;
+    background: #232323;
+    color: #f7f7f7;
+}
+.colorblock-image {
+    padding: 10% 0;
+    clear: both;
+    color: #fff;
+}
+.colorblock-image-dark {
+    padding: 10% 0;
+    clear: both;
+    color: #232323;
+}
+.colorblock-image h2, .colorblock-dark h2 {
+    color: #fff;
+}
+.half {
+    width: 48%;
+    margin: 20px 1%;
+    float: left;
+}
+#footer {
+    text-align: center;
+    margin-bottom: -135px;
+}
+</style>
 </head>
-<body>
-Hello World
 
+<body>
+
+<div id="whtspc-orig" style="position: fixed; top: 0;"></div>
+
+<div id="intro" style="position: relative;"></div>
+
+<div class="lead" style="position: relative;">
+
+<div id="nav" style="position: fixed;">
+<ul><li><a href="#top">top</a></li>
+<li><a href="#sectionOne">one</a></li>
+<li><a href="#sectionTwo">two</a></li>
+<li><a href="#sectionThree">three</a></li>
+<li><a href="#dropdown">link dropdown ▾</a>
+<span style="position: absolute;">
+<a href="#">RESUME</a>
+<a href="/~Link">Stuff</a>
+<a href="/~Link">Link Here</a>
+<a href="/~Link">Link Here</a>
+<a href="/~Link">Link Here</a>
+</span>
+</li>
+
+<li><a href="#dropdown">bookmarks ▾</a>
+<span style="position: absolute;">
+<a href="#">None</a>
+
+</span>
+</li>
+
+<li><a href="#dropdown">other ▾</a>
+<span style="position: absolute;">
+<a href="#">none</a>
+</span>
+</li>
+
+</ul></div>
+
+<h1>Kari</h1>
+</div>
+
+
+<div class="colorblock" id="sectionOne">
+<div class="container">
+
+
+<h2>colorblock, white background</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <a href="/">aliquip ex ea</a> commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+</div>
+</div>
+
+<div class="colorblock-image" id="sectionTwo" style="background: url('http://i.imgur.com/F0APdLp.jpg') fixed 100% 100%;">
+<div class="container">
+
+<h2>colorblock, white text</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+</div>
+</div>
+
+
+<div class="colorblock-dark" id="sectionThree">
+<div class="container">
+
+
+<h2>colorblock, dark background</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+<div class="half">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</div>
+<div class="half">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</div>
+
+<br class="leavethisheretoclear"></div>
+</div>
+
+
+
+<div class="colorblock-image-dark" id="sectionFour" style="background: url('http://i.imgur.com/GjIUOLR.jpg') fixed 100% 100%;">
+<div class="container">
+
+<h2>colorblock, dark text</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+</div>
+</div>
+
+
+<div class="colorblock" id="footer">
+<div class="container">
+<p>Footer here </p>
+</div>
+</div>
+         
 </body>
-</html>
+</html>           
+                    
