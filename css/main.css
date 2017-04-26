@@ -29,9 +29,13 @@ body {
 
 h1 {
   color: white;
-  font-size: 9rem;
+  font-size: 8rem;
   text-align: center;
   padding-top: 5%;
+}
+.title{
+  width: 100%;
+  height: auto;
 }
 hr {
   width: 25%;
