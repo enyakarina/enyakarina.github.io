@@ -75,10 +75,10 @@ h2 {
   margin-bottom: 2rem;
 }
 .circle {
-  width: 15rem;
-  height: 15rem;
+  width: 11rem;
+  height: 11rem;
   border-radius: 300rem;
-  line-height: 15rem;
+  line-height: 11rem;
   background-color: #84E07C;
   margin: 0 auto;
 }
@@ -88,7 +88,7 @@ h2 {
   text-align: left;
 }
 .girl-icon {
-  width: 50%;
+  width: 45%;
   height: auto;
   padding-bottom: 1rem;
 }
