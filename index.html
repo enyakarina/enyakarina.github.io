@@ -27,7 +27,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -37,7 +39,7 @@
   <div class="container-fluid first-div">
     <div class="row">
       <div class="col-xs-12 col-md-12 col-lg-12">
-        <h1>Welcome</h1>
+        <h1>W E L C O M E</h1>
         <hr>
         <div class="wrapper">
           <div class="roles">
@@ -51,36 +53,48 @@
       </div>
     </div>
   </div>
-  <!--Skills Div-->
-  <div class="container skill-container">
-    <div class="row">
-      <div class="col-xs-12 col-md-12 col-lg-12 skill-div">
-        <h2>Skills</h2>
-        <div class="skill html">HTML</div>
-        <div class="skill css">CSS</div>
-        <div class="skill js">JavaScript</div>
-        <div class="skill jqery">jQuery</div>
-        <div class="skill php">PHP</div>
-        <div class="skill laravel">Laravel</div>
-        <div class="skill sql">SQL</div>
-        <div class="skill git">Git</div>
+  <!--About/Social-->
+  <div class="container social-container">
+    <div class="row" id="about">
+      <div class="col-xs-12 col-md-12 col-lg-12 social-div">
+        <h2>About Me</h2>
+          <br>
+          <div class="col-md-6">
+            <img src="https://image.flaticon.com/icons/svg/179/179822.svg" alt="picture of karina palomino" class="girl-icon">
+          </div>
+          <div class="col-md-5 col-md-offset-1">
+          <h4>What is Lorem Ipsum?</h4>
+            <p class="left">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+          </div> 
       </div>
     </div>
   </div>
+<!--Skills Div-->
+  <div class="container skill-container">
+    <div class="row" id="skills">
+      <div class="col-xs-12 col-md-12 col-lg-12 skill-div">
+        <h2>My Skills</h2>
+        <div class="skill html col-md-5"><div class="circle">HTML</div></div>
 
-  <!--Social Media-->
-  <div class="container social-container">
-    <div class="row">
-      <div class="col-xs-12 col-md-12 col-lg-12 social-div">
-      <h2>About Me / Social</h2>
-        <i class="fa fa-github fa-5x git-icon" aria-hidden="true"></i>
-        <i class="fa fa-linkedin fa-5x lin-icon" aria-hidden="true"></i>
-        <i class="fa fa-globe fa-5x globe-icon" aria-hidden="true"></i>
+        <div class="skill css col-md-5 col-md-offset-2"><div class="circle">CSS</div></div>
+
+        <div class="skill js col-md-5"><div class="circle">JavaScript</div></div>
+
+        <div class="skill jqery col-md-5 col-md-offset-2"><div class="circle">jQuery</div></div>
+
+        <div class="skill php col-md-5"><div class="circle">PHP</div></div>
+
+        <div class="skill laravel col-md-5 col-md-offset-2"><div class="circle">Laravel</div></div>
+
+        <div class="skill sql col-md-5"><div class="circle">SQL</div></div>
+
+        <div class="skill git col-md-5 col-md-offset-2"><div class="circle">Git</div></div>
       </div>
     </div>
   </div>
 
     <!--Contact Form-->
+    <a id="contact">
     <script type="text/javascript" src="https://form.jotform.us/jsform/71075324684155"></script>
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
