@@ -1,7 +1,7 @@
-var current = 1; //keeps track of the current div
-var height = $('.roles').height(); //the height of the roles div
-var numberDivs = $('.roles').children().length; //the number of children of the roles div
-var first = $('.roles div:nth-child(1)'); //the first div nested in roles div
+var current = 1; //current div
+var height = $('.adjectives').height(); //the height of the adjectives div
+var numberDivs = $('.adjectives').children().length; //the number of children of the adjectives div
+var first = $('.adjectives div:nth-child(1)'); //the first div nested in adjectives div
 setInterval(function() {
     var number = current * -height;
     first.css('margin-top', number + 'px');
